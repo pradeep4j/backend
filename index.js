@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
 app.get('/',(req,res) => {
-    res.json({status:200,message:'backend'})
+    res.json({message:'Backend is run successfully!'})
 })
 app.listen(3000);
